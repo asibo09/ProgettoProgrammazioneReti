@@ -1,0 +1,53 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Titolo */
+h1 {
+  margin-bottom: 20px;
+  color: #00304e;
+}
+
+/* Paragrafi */
+p {
+  margin-bottom: 15px;
+}
+
+.obliquo {
+  font-style: italic;
+}
+
+/* Link */
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0450a7;
+  transform: scale(2.00);
+}
+
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
